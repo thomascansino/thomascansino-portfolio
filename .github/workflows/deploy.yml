@@ -18,7 +18,6 @@ jobs:
         uses: actions/setup-node@v3
 
       - name: Install dependencies
-        uses: bahmutov/npm-install@v1
         run: npm install
         working-directory: thomascansino-portfolio/thomascansino-frontend
 
