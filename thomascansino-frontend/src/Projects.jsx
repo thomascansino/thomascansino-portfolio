@@ -26,7 +26,8 @@ function Projects() {
                 'Reviews: Booking-specific reviews with star ratings and feedback for completed bookings.'
             ],
             imgSrc: dogBoarding,
-            href: 'http://dogboarding.ph/',
+            href: 'https://www.dogboarding.ph',
+            url: 'dogboarding.ph',
         },
         {
             name: 'Contacts Manager',
@@ -41,7 +42,8 @@ function Projects() {
                 'Profile Pictures: Multer for file uploads; Sharp compresses images for efficient MongoDB storage.'
             ],         
             imgSrc: contactsManager,
-            href: 'http://contactsmanager.vercel.app/',
+            href: 'https://contactsmanager.thomascansino.com',
+            url: 'contactsmanager.com',
         },
         {
             name: 'Task Manager',
@@ -56,7 +58,8 @@ function Projects() {
                 'UX Enhancements: Interactive modals for seamless task creation and editing.'
             ],
             imgSrc: taskManager,
-            href: 'http://taskmanager.vercel.app/',
+            href: 'https://taskmanager.thomascansino.com',
+            url: 'taskmanager.com',
         },
     ];
 
@@ -92,7 +95,10 @@ function Projects() {
                             </div>
 
                             <a href={project.href} target='_blank'>
-                                <i className="fa-solid fa-arrow-up-right-from-square projects-main-card-about-icon"></i>
+                                <label className='projects-main-card-url-label'>
+                                    <i className="fa-solid fa-arrow-up-right-from-square projects-main-card-about-icon"></i>
+                                    <span>{project.url}</span>
+                                </label>
                             </a>
                         </div>
                     </div>
