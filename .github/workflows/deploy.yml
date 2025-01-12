@@ -19,15 +19,18 @@ jobs:
 
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
+        run: npm install
+        working-directory: thomascansino-portfolio/thomascansino-frontend
 
       - name: Build project
         run: npm run build
+        working-directory: thomascansino-portfolio/thomascansino-frontend
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v3
         with:
           name: production-files
-          path: ./dist
+          path: thomascansino-portfolio/thomascansino-frontend/dist
 
   deploy:
     name: Deploy
