@@ -96,7 +96,7 @@ function Projects() {
 
                             <a href={project.href} target='_blank'>
                                 <label className='projects-main-card-url-label'>
-                                    <i className="fa-solid fa-arrow-up-right-from-square projects-main-card-about-icon"></i>
+                                    <i className="fa-solid fa-arrow-up-right-from-square projects-main-card-about-icon disable-pointer"></i>
                                     <span>{project.url}</span>
                                 </label>
                             </a>
