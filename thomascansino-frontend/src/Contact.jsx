@@ -18,8 +18,10 @@ function Contact() {
                     </div>
                     <div className='contact-main-link'>
                         <i className="fa-solid fa-link contact-main-link-icon disable-pointer"></i>
-                        <span className='contact-main-link-text'>CV/Resume GDrive Link</span>
-                        <i className="fa-solid fa-arrow-up-right-from-square contact-main-link-icon"></i>
+                        <a href='https://drive.google.com/file/d/1BunyjBSF6m4Owlj4rZ9LryLSpQKW9URd/view?usp=sharing' target='_blank' className='contact-main-link'>
+                            <span className='contact-main-link-text'>CV/Resume GDrive Link</span>
+                            <i className="fa-solid fa-arrow-up-right-from-square contact-main-link-icon"></i>
+                        </a>
                     </div>
                 </div>
             </div>
