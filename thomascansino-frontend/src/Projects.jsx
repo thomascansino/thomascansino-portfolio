@@ -26,6 +26,7 @@ function Projects() {
                 'Reviews: Booking-specific reviews with star ratings and feedback for completed bookings.'
             ],
             imgSrc: dogBoarding,
+            videoSrc: 'https://www.youtube.com/embed/pohIYjIGTTs?si=mu_PWQAul3WafRnU',
             href: 'https://www.dogboarding.ph',
             url: 'dogboarding.ph',
         },
@@ -42,6 +43,7 @@ function Projects() {
                 'Profile Pictures: Multer for file uploads; Sharp compresses images for efficient MongoDB storage.'
             ],         
             imgSrc: contactsManager,
+            videoSrc: 'https://www.youtube.com/embed/WEYxvQKRtkA?si=Qb3Kiqn7QL2eyohZ',
             href: 'https://contactsmanager.thomascansino.com',
             url: 'contactsmanager.com',
         },
@@ -58,6 +60,7 @@ function Projects() {
                 'UX Enhancements: Interactive modals for seamless task creation and editing.'
             ],
             imgSrc: taskManager,
+            videoSrc: 'https://www.youtube.com/embed/DesEesS2Hx4?si=x8jjWyAFE3X_Uwem',
             href: 'https://taskmanager.thomascansino.com',
             url: 'taskmanager.com',
         },
@@ -70,8 +73,18 @@ function Projects() {
 
                 {projects.map((project, i) => (
                     <div key={i} className='projects-main-card-container shadow'>
-                        <div className='projects-main-card-image-container'>
-                            <img src={project.imgSrc} alt={`project-${i+1} image`} className='projects-main-card-image shadow'/>
+                        <div className='projects-main-card-image-video-container'>
+                            <div className='projects-main-card-video-container'>
+                                <iframe 
+                                className='projects-main-card-video shadow'
+                                src={project.videoSrc} frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                referrerPolicy="strict-origin-when-cross-origin" 
+                                allowFullScreen />
+                            </div>
+
+                            <div className='projects-main-card-image-container'>
+                                <img src={project.imgSrc} alt={`project-${i+1} image`} className='projects-main-card-image shadow'/>
+                            </div>
                         </div>
 
                         <div className='projects-main-card-about-container'>
