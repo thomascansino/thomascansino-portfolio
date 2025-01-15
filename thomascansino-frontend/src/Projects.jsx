@@ -69,7 +69,7 @@ function Projects() {
     return (
         <div className='projects-container'>
             <div className='projects-main-container' id='projects'>
-                <div className='bubble-label'>Solo Projects</div>
+                <div className='bubble-label'>Projects</div>
 
                 {projects.map((project, i) => (
                     <div key={i} className='projects-main-card-container shadow'>
