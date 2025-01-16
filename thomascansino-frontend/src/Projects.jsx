@@ -12,7 +12,7 @@ function Projects() {
         {
             name: 'DogBoardingPH',
             logo: dogBoardingIcon,
-            about: "A pet care SAAS platform that connects dog sitters with owners, making it easy to find reliable and trustworthy care for pets during the owner's absence.",
+            about: "A pet care SAAS platform that connects fur parents with pet sitters, making it easy to find reliable and trustworthy care for pets during the owner's absence.",
             stack: ['React', 'NodeJS', 'ExpressJS', 'Git', 'MongoDB', 'Figma', 'CSS'],
             features: [
                 'Authentication: JWT-based sessions, Google Login with OAuth2Client, and secure password hashing.',
