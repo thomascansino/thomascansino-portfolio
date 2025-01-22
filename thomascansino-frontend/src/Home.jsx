@@ -20,8 +20,8 @@ function Home() {
                         </span>
                         <span className='home-main-about-intro-text-container'>
                             <p>A civil engineer turned full-stack developer (MERN). I have 1 year experience in building, scaling, & maintaining SAAS products, and I’m looking forward to bring my skills to your team.</p> 
-                            <p>The latest product I've worked on is DogBoardingPH, an app that connects dog sitters with owners, making it easy to find reliable care for pets while their owners are away.</p>
-                            <p>I’ve also built a contact management app for organizing connections and a task management app to help plan and do tasks efficiently.</p>
+                            <p>The latest product I've worked on as a lead full-stack developer is DogBoardingPH, an app that connects pet owners with dog sitters to find reliable care for their pets while they're away.</p>
+                            <p>I’ve also worked as a lead full-stack developer on a contact management app for organizing connections and a task management app to help plan and do tasks efficiently.</p>
                         </span>
                     </div>
                     <div><hr></hr></div>
