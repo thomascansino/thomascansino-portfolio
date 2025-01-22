@@ -19,9 +19,9 @@ function Home() {
                             Hi, I'm Thomas 👋
                         </span>
                         <span className='home-main-about-intro-text-container'>
-                            <p>A civil engineer turned full-stack developer (MERN). I create SAAS products to solve daily problems my family and I face, and I’m excited to bring my problem-solving skills to your team.</p> 
-                            <p>One of my projects is DogBoardingPH, an app that connects dog sitters with owners, making it easy to find reliable care for pets while their owners are away.</p>
-                            <p>I’ve also built a contact management app for organizing connections and a task manager to help plan and do tasks efficiently.</p>
+                            <p>A civil engineer turned full-stack developer (MERN). I have 1 year experience in building, scaling, & maintaining SAAS products, and I’m looking forward to bring my skills to your team.</p> 
+                            <p>The latest product I've worked on is DogBoardingPH, an app that connects dog sitters with owners, making it easy to find reliable care for pets while their owners are away.</p>
+                            <p>I’ve also built a contact management app for organizing connections and a task management app to help plan and do tasks efficiently.</p>
                         </span>
                     </div>
                     <div><hr></hr></div>
