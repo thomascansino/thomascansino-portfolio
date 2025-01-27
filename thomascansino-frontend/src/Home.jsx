@@ -24,6 +24,7 @@ function Home() {
                             <p>I’ve also worked as a lead full-stack developer on a contact management app for organizing connections and a task management app to help plan and do tasks efficiently.</p>
                         </span>
                     </div>
+                    <div><hr></hr></div>
                     <div className='home-main-about-outro-container'>
                         <div className='home-main-about-outro-icons-container'>
                             <a href='https://www.linkedin.com/in/thomascansino/' target='_blank'><i className="fa-brands fa-linkedin home-main-about-outro-icons"></i></a>
