@@ -12,6 +12,11 @@ import postgresql from './assets/postgresql.png'
 import mongodb from './assets/mongodb.png'
 import figma from './assets/figma.png'
 import googlecloud from './assets/google cloud storage.png'
+import docker from './assets/docker.png'
+import python from './assets/python.png'
+import supabase from './assets/supabase.png'
+import mysql from './assets/mysql.png'
+import typescript from './assets/typescript.png'
 
 function Skills() {
     
@@ -21,12 +26,28 @@ function Skills() {
             icon: react,
         },
         {
-            skill: 'NodeJS',
+            skill: 'TypeScript',
+            icon: typescript,
+        },
+        {
+            skill: 'Node.js',
             icon: nodejs,
         },
         {
-            skill: 'ExpressJS',
+            skill: 'Python',
+            icon: python,
+        },
+        {
+            skill: 'Docker',
+            icon: docker,
+        },
+        {
+            skill: 'Express.js',
             icon: expressjs,
+        },
+        {
+            skill: 'Supabase',
+            icon: supabase,
         },
         {
             skill: 'GCloud',
@@ -39,6 +60,10 @@ function Skills() {
         {
             skill: 'PostgreSQL',
             icon: postgresql,
+        },
+        {
+            skill: 'MySQL',
+            icon: mysql,
         },
         {
             skill: 'Figma',
