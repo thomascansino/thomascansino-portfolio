@@ -19,7 +19,7 @@ function Home() {
                             Hi, I'm Thomas 👋
                         </span>
                         <span className='home-main-about-intro-text-container'>
-                            <p>I have 1 year experience as a full-stack developer in building & maintaining SAAS products, and I’m looking forward to bring my skills to your team.</p> 
+                            <p>I'm a full stack developer with 5 years of experience building websites and SAAS products for local and international clients. I’m looking forward to bringing my skills to your team.</p> 
                             <p>The latest product I've worked on as a lead full-stack developer is DogBoardingPH, an app that connects pet owners with dog sitters to find reliable care for their pets while they're away.</p>
                             <p>I’ve also worked as a lead full-stack developer on a contact management app for organizing connections and a task management app to help plan and do tasks efficiently.</p>
                         </span>
